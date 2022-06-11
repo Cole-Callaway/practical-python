@@ -1,6 +1,6 @@
-import requests
 
 def get_weather_desc_and_temp():
+    import requests
     api_key = '468de70ed6f17c023ae55a130b264827'
     city = 'Orlando'
     url = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+api_key+"&units=imperial"
